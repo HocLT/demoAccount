@@ -13,9 +13,10 @@ const cors = require("cors");
 
 require("dotenv").config();
 // 4SZS2r3MRPqXNdmu
+// LTCRijx6KOBwWHth
 mongoose
   //.connect("mongodb://quang:123@localhost:27017/demo")
-  .connect("mongodb+srv://qdemosend1:4SZS2r3MRPqXNdmu@cluster0.tstf2ei.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+  .connect("mongodb+srv://qhocai:LTCRijx6KOBwWHth@cluster0.b3ftz1j.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
   .then(() => console.log("Connect to MongoDB successfully"))
   .catch((err) => console.log(err));
 
